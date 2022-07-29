@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "lib": ["esnext", "dom"],
+    "module": "esnext",
+    "outDir": "dist",
+    "downlevelIteration": true,
+    "moduleResolution": "node",
+    "strict": true,
+    "typeRoots": ["node_modules/@types", "src/types"],
+    "allowSyntheticDefaultImports": true
+  },
+  "include": ["src/**/*"]
+}
